@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Proposta Comercial | OXE</title>
+
+<style>
+
+:root{
+--bg:#1f1f1f;
+--primary:#fd4c10;
+--text:#ffffff;
+--card:#2a2a2a;
+--muted:#b5b5b5;
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Inter,sans-serif;
+}
+
+body{
+background:var(--bg);
+color:var(--text);
+line-height:1.6;
+}
+
+.container{
+max-width:1100px;
+margin:auto;
+padding:40px 20px;
+}
+
+header{
+text-align:center;
+padding:70px 20px 30px 20px;
+}
+
+header h1{
+font-size:40px;
+color:var(--primary);
+margin-bottom:10px;
+}
+
+header p{
+color:var(--muted);
+font-size:18px;
+}
+
+.hero{
+background:var(--card);
+border-radius:14px;
+padding:40px;
+margin-top:30px;
+animation:fadeUp .8s ease;
+}
+
+.hero h2{
+font-size:30px;
+margin-bottom:15px;
+}
+
+.hero span{
+color:var(--primary);
+}
+
+.section{
+margin-top:60px;
+}
+
+.section h2{
+font-size:26px;
+margin-bottom:25px;
+color:var(--primary);
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+gap:20px;
+}
+
+.card{
+background:var(--card);
+padding:25px;
+border-radius:12px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-6px);
+}
+
+.card h3{
+color:var(--primary);
+margin-bottom:10px;
+font-size:18px;
+}
+
+.card p{
+color:var(--muted);
+font-size:15px;
+}
+
+.price{
+background:var(--card);
+padding:45px;
+border-radius:16px;
+text-align:center;
+margin-top:30px;
+}
+
+.price h3{
+color:var(--primary);
+font-size:24px;
+}
+
+.price strong{
+display:block;
+font-size:48px;
+margin:15px 0;
+color:white;
+}
+
+.price p{
+color:var(--muted);
+margin-bottom:15px;
+}
+
+.price ul{
+list-style:none;
+margin-top:15px;
+}
+
+.price li{
+margin:10px 0;
+color:var(--muted);
+}
+
+.btn{
+background:var(--primary);
+color:white;
+padding:14px 30px;
+border-radius:8px;
+text-decoration:none;
+display:inline-block;
+margin-top:25px;
+transition:.3s;
+}
+
+.btn:hover{
+transform:scale(1.05);
+}
+
+footer{
+margin-top:80px;
+padding-bottom:40px;
+text-align:center;
+color:#777;
+font-size:14px;
+}
+
+footer span{
+color:var(--primary);
+}
+
+@keyframes fadeUp{
+from{
+opacity:0;
+transform:translateY(20px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+@media(max-width:700px){
+
+header h1{
+font-size:32px;
+}
+
+.hero h2{
+font-size:24px;
+}
+
+.price strong{
+font-size:38px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<h1>Proposta para Michely</h1>
+<p>Fotografia institucional para escritório de advocacia</p>
+
+</header>
+
+<div class="container">
+
+<div class="hero">
+
+<h2>Produção de <span>fotografia institucional</span></h2>
+
+<p>
+A proposta é criar um banco de fotos profissionais do escritório,
+com fotos individuais dos advogados e fotos institucionais da equipe.
+Essas imagens serão ideais para uso no site, LinkedIn, redes sociais
+e materiais institucionais do escritório.
+</p>
+
+</div>
+
+<div class="section">
+
+<h2>O que será realizado</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Fotos profissionais</h3>
+<p>Fotos individuais dos advogados com direção de poses para transmitir autoridade e profissionalismo.</p>
+</div>
+
+<div class="card">
+<h3>Fotos institucionais</h3>
+<p>Fotos da equipe ou dos sócios reforçando a identidade visual e posicionamento do escritório.</p>
+</div>
+
+<div class="card">
+<h3>Padronização visual</h3>
+<p>Iluminação e enquadramento consistentes para manter um padrão visual profissional.</p>
+</div>
+
+<div class="card">
+<h3>Imagens estratégicas</h3>
+<p>Fotos pensadas para uso em site, LinkedIn, apresentações e comunicação institucional.</p>
+</div>
+
+</div>
+
+</div>
+
+<div class="section">
+
+<h2>Entrega</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Fotos individuais</h3>
+<p>3 fotos profissionais de cada advogado.</p>
+</div>
+
+<div class="card">
+<h3>Fotos da equipe</h3>
+<p>3 fotos institucionais da equipe ou dos sócios.</p>
+</div>
+
+<div class="card">
+<h3>Tratamento profissional</h3>
+<p>Ajustes de luz, cor e enquadramento para acabamento visual refinado.</p>
+</div>
+
+<div class="card">
+<h3>Alta resolução</h3>
+<p>Arquivos entregues prontos para uso em site, LinkedIn e redes sociais.</p>
+</div>
+
+</div>
+
+</div>
+
+<div class="section">
+
+<h2>Investimento</h2>
+
+<div class="price">
+
+<h3>Sessão Institucional Completa</h3>
+
+<strong>R$ 2.200</strong>
+
+<p>
+Produção completa realizada em <strong>um turno de até 4 horas</strong>,
+podendo ser no período da <strong>manhã (08h às 12h)</strong>
+ou <strong>tarde (14h às 18h)</strong>.
+</p>
+
+<ul>
+
+<li>Sessão fotográfica no escritório</li>
+<li>Direção de poses profissionais</li>
+<li>3 fotos de cada advogado</li>
+<li>3 fotos institucionais da equipe ou sócios</li>
+<li>Tratamento profissional das imagens</li>
+<li>Entrega digital em alta resolução</li>
+
+</ul>
+
+<a class="btn" href="#">Aprovar proposta</a>
+
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+Produção visual por <span>OXE</span>
+
+<div style="margin-top:8px;font-size:12px;color:#666;">
+Ciclup é uma iniciativa do ecossistema OXE
+</div>
+
+</footer>
+
+</body>
+</html>
