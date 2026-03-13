@@ -31,8 +31,10 @@ color:var(--text);
 line-height:1.6;
 }
 
+/* CONTAINER CENTRAL */
+
 .container{
-max-width:1100px;
+max-width:900px;
 margin:auto;
 padding:40px 20px;
 }
@@ -45,7 +47,7 @@ text-align:center;
 }
 
 .hero h1{
-font-size:46px;
+font-size:44px;
 font-weight:600;
 margin-bottom:10px;
 }
@@ -57,7 +59,7 @@ color:var(--accent);
 .hero p{
 color:var(--muted);
 font-size:18px;
-max-width:700px;
+max-width:600px;
 margin:auto;
 }
 
@@ -65,20 +67,22 @@ margin:auto;
 
 .section{
 margin-top:80px;
+text-align:center;
 }
 
 .section-title{
 font-size:28px;
-margin-bottom:30px;
+margin-bottom:40px;
 color:var(--accent);
 }
 
-/* GRID */
+/* GRID CENTRALIZADO */
 
 .grid{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+grid-template-columns:1fr 1fr;
 gap:24px;
+justify-content:center;
 }
 
 /* CARDS */
@@ -88,6 +92,7 @@ background:var(--card);
 padding:28px;
 border-radius:14px;
 transition:.3s;
+text-align:left;
 }
 
 .card:hover{
@@ -122,7 +127,7 @@ margin-bottom:10px;
 }
 
 .price{
-font-size:52px;
+font-size:54px;
 color:var(--accent);
 margin:10px 0 20px;
 font-weight:600;
@@ -135,7 +140,7 @@ margin-bottom:20px;
 
 .investment ul{
 list-style:none;
-max-width:500px;
+max-width:420px;
 margin:0 auto 30px;
 text-align:left;
 }
@@ -179,6 +184,10 @@ color:var(--accent);
 /* RESPONSIVE */
 
 @media(max-width:700px){
+
+.grid{
+grid-template-columns:1fr;
+}
 
 .hero h1{
 font-size:34px;
@@ -226,12 +235,12 @@ em site, LinkedIn, redes sociais e materiais institucionais.
 
 <div class="card">
 <h3>Padronização visual</h3>
-<p>Iluminação e enquadramento consistentes para manter uma comunicação visual forte.</p>
+<p>Iluminação e enquadramento consistentes para manter comunicação visual profissional.</p>
 </div>
 
 <div class="card">
 <h3>Uso estratégico</h3>
-<p>Fotos ideais para site, LinkedIn, redes sociais e comunicação institucional.</p>
+<p>Fotos ideais para site, LinkedIn, redes sociais e materiais institucionais.</p>
 </div>
 
 </div>
@@ -256,7 +265,7 @@ em site, LinkedIn, redes sociais e materiais institucionais.
 
 <div class="card">
 <h3>Tratamento profissional</h3>
-<p>Ajustes de luz, cor e enquadramento para acabamento visual refinado.</p>
+<p>Ajustes de luz, cor e enquadramento para acabamento refinado.</p>
 </div>
 
 <div class="card">
@@ -285,7 +294,7 @@ ou <strong>tarde (14h às 18h)</strong>.
 <li>Sessão fotográfica no escritório</li>
 <li>Direção de poses profissionais</li>
 <li>3 fotos de cada advogado</li>
-<li>3 fotos institucionais da equipe ou sócios</li>
+<li>3 fotos institucionais da equipe</li>
 <li>Tratamento profissional das imagens</li>
 <li>Entrega digital em alta resolução</li>
 
